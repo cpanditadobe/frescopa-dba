@@ -214,7 +214,7 @@ async function loadEager(doc) {
     await runEager(document, { audiences: AUDIENCES, overrideMetadataFields: ['placeholders'] }, pluginContext);
   }
 
-  await initializeDropins();
+ /* await initializeDropins();*/
 
   window.adobeDataLayer = window.adobeDataLayer || [];
 
